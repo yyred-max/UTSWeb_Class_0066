@@ -65,15 +65,22 @@
 
         <main>
             <!-- Section 1 -->
-            <section id="Dashboard">
-                <div class="col-sm-6">
+            <section id="Dashboard" class="py-5">
+                <div class="container-fluid px-0">
                     <h2>Dashboard</h2>
                     <div class="card text-white">
-                        <img class="card-img" src="Background.png" alt="Backgorund">
+                        <img class="card-img object-fit-cover" src="Background.png" alt="Backgorund" style="height: 700px; object-fit: cover; ">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">Lentera Belajar</h5>
-                            <p class="card-text">Lentera Aksara: Profil Company Perpustakaan Digital</p>
+                            <h5 class="display-4 fw-bold">Lentera Belajar</h5>
+                            <p class="lead mb-4">Lentera Aksara: website company profile perpustakaan digital</p>
                         </div>
+
+                        <form class="d-flex w-50" role="search">
+                        
+                            <input class="submit" type="search" placeholder="Search">
+                        <button type="" class="btn btn-primary">
+                            <i class="bi bi-search-heart"></i>
+                        </button>
                     </div>
                 </div>
             </section>
