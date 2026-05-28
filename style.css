@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    /* width: 100%; */
     padding: 1rem 4.5rem;
     display: flex;
     align-items: center;
@@ -19,6 +20,18 @@ header {
     top: 0;
     z-index: 100;
     background-color: #E6DEC9;
-    border-bottom: 1 px solid #3a7ce0;
+    border-bottom: 1px solid #3a7ce0;
 }
+
+nav a {
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s;
+}
+
+
+
 
