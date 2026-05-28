@@ -9,3 +9,16 @@ body {
     background-color: #E6DEC9;
     line-height: 1.6;
 }
+
+header {
+    padding: 1rem 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #E6DEC9;
+    border-bottom: 1 px solid #3a7ce0;
+}
+
