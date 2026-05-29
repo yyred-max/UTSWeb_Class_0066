@@ -8,10 +8,10 @@ body {
     font-family: "Segoe UI";
     background-color: #E6DEC9;
     line-height: 1.6;
+    margin:0;
 }
 
 header {
-    /* width: 100%; */
     padding: 1rem 4.5rem;
     display: flex;
     align-items: center;
@@ -24,13 +24,29 @@ header {
 }
 
 nav a {
-    color: #ffffff;
     font-size: 0.9rem;
     text-decoration: none;
     position: relative;
     padding-bottom: 4px;
     transition: color 0.3s;
+    color: black;
 }
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: white;
+}
+
+nav a:hover{
+    color: #3a7ce0
+}
+
+
 
 
 
