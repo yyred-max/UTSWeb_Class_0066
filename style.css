@@ -149,4 +149,26 @@ h2:after {
     background: var(--secondary);
 }
 
+.card {
+    background: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    overflow: hidden;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translate(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.btn-primary {
+    
+}
 
