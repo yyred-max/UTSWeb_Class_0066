@@ -5,8 +5,9 @@
 }
 
 body { 
-    font-family: "Segoe UI";
+    font-family: 'Inter', sans-serif;
     background-color: #E6DEC9;
+    scroll-behavior: smooth;
     line-height: 1.6;
     margin:0;
 }
@@ -44,6 +45,15 @@ nav {
 
 nav a:hover{
     color: #3a7ce0
+}
+
+#Dashboard {
+    padding: 6rem 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    min-height: 70vh;
 }
 
 
