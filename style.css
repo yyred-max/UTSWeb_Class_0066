@@ -70,26 +70,50 @@ nav a:hover{
     padding: 2rem;
  }
 
-#Dashboard .card-img-overlay form {
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 60px;
-    padding: 0.25rem;
-    margin-top: 1rem;
-    backdrop-filter: blur(2px);
-}
-
-#Dashboard .card-img-overlay form input {
-    border: none;
-    background: transparent;
-    padding: o.75rem 1.2rem;
-}
-
-#Dashboard .card-img-overlay form button {
-    background: var(--primary);
+#Dashboard form {
+    background: white;
     border-radius: 50px;
-    padding: 0.5rem 1.8rem;
-    white-space: nowrap;
+    padding: 5px;
+    width: 90%;
+    max-width: 450px;
 }
 
+#Dashboard form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 12px 20px;
+}
 
+#Dashboard form button {
+    background: #2c3e66;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 25px;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+    color: var(--primary-dark);
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--primary-light);
+    border-radius: 3px;
+}
