@@ -160,7 +160,7 @@ h2:after {
 }
 
 .card:hover {
-    transform: translate(-6px);
+    transform: translateY(-6px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
@@ -169,6 +169,10 @@ h2:after {
 }
 
 .btn-primary {
-    
+    background-color: var(--primary-light);
+    border: none;
+    border-radius: 40px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    transition: var(--transition);   
 }
-
