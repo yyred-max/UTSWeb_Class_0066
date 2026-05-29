@@ -243,3 +243,27 @@ h2:after {
     text-align: center;
     margin: 2rem auto;
 }
+
+#Kontak {
+    display: flex;
+    justify-content: ccenter;
+}
+
+#Kontak .container {
+    background: white;
+    border-radius: 28px;
+    padding: 2.5rem 3rem !important; 
+    box-shadow: var(--shadow);
+    width: 550px;
+    margin: 0 auto;
+}
+
+#Kontak form{
+   width: 100%;
+}
+
+.form-control {
+    border-radius: 14px;
+    border: 1px solid #ddd8cc;
+    padding: 0.75rem 1rem;
+}
