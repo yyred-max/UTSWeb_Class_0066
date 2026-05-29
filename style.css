@@ -61,6 +61,14 @@ nav a:hover{
     filter: brightness(0.75);
  }
 
+ #Dashboard .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+ }
 
 
 
