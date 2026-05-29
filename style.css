@@ -211,3 +211,32 @@ h2:after {
     margin-bottom: 1rem;
 }
 
+#Profil {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    border-radius: 32px;
+    padding: 2.5rem 4rem !important;
+    margin: 2rem auto;
+    box-shadow: var(--shadow);
+}
+
+.hero-kiri {
+    flex: 1.2;
+}
+
+.hero-kiri h2 {
+    margin-bottom: 1.2rem;
+}
+
+.hero-kiri p {
+    font-size: 1.05rem;
+    color: #2d3e50;
+}
+
+.hero-kanan {
+    flex: 1;
+    text-align: center;
+}
+
