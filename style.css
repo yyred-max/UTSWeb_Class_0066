@@ -70,6 +70,20 @@ nav a:hover{
     padding: 2rem;
  }
 
+#Dashboard form {
+    margin-top: 1rem;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    background: white;
+    border-radius: 60px;
+    padding: 0.25rem;
+    box-shadow: var(--shadow-md);
+}
+
+
+
 
 
 
