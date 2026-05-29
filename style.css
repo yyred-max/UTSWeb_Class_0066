@@ -77,7 +77,6 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
  }
 
 #Dashboard form {
@@ -122,6 +121,32 @@ h2:after {
     height: 3px;
     background: var(--primary-light);
     border-radius: 3px;
+}
+
+#Koleksi .row, #Katalog .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#Koleksi .col-sm-6, #Katalog .col-sm-6 {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+#Koleksi .col-sm-6 > h2, 
+#Katalog .col-sm-6 > h2 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 1 rem;
+}
+
+#Koleksi .col-sm-6 > h2:after, 
+#Katalog .col-sm-6 > h2:after {
+    width: 40px;
+    background: var(--secondary);
 }
 
 
