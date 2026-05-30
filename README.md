@@ -22,3 +22,20 @@ https://fonts.google.com/specimen/Inter
 
 
 
+Tampilan Website 
+1. Dashboard
+![Dashboard] (Dashboard.png)
+2. Koleksi 
+![Koleksi](Koleksi.png)
+3. Katalog
+![Katalog](Katalog.png)
+4. Kategori
+![Kategori](Kategori.png)
+5. Rekomendasi
+![Rekomendasi](Rekomendasi.png)
+6. Profil 
+![Profil](Profil.png)
+7. Tentang Kami 
+![Tentang Kami] (TentangKami.png)
+8. Kontak 
+![Kontak](Kontak.png)
