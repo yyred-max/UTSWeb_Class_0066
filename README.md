@@ -24,7 +24,7 @@ https://fonts.google.com/specimen/Inter
 
 Tampilan Website 
 1. Dashboard
-![Dashboard] (Dashboard.png)
+![Dashboard](Dashboard.png)
 2. Koleksi 
 ![Koleksi](Koleksi.png)
 3. Katalog
@@ -36,6 +36,6 @@ Tampilan Website
 6. Profil 
 ![Profil](Profil.png)
 7. Tentang Kami 
-![Tentang Kami] (TentangKami.png)
+![Tentang Kami](TentangKami.png)
 8. Kontak 
 ![Kontak](Kontak.png)
