@@ -1,8 +1,8 @@
-<script>
-    function updateRatingDisplay(radioGroupName, displayElementId) {
-        const radioButtons = document.querySelectorAll('input[name="${radioGroupName}"]');
-        const displayElemen = document.getElementById(displayElemenId);
+const radioButtons = document.querySelectorAll('input[name="${radioGroupName}"]');
+const displayElemen = document.getElementById(displayElemenId);
 
+    function updateRatingDisplay(radioGroupName, displayElementId) {
+       
         radioButtons.forEach(radio => {
             radio.addEventListener('change', function() {
                 if (this.checked) {
@@ -12,4 +12,5 @@
         });
     }
     updateRatingDisplay('rating-laskar', 'laskar-rating-value');
-</script>
+
+    

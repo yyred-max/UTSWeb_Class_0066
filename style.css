@@ -268,7 +268,7 @@ h2:after {
     padding: 0.75rem 1rem;
 }
 
-.start-rating {
+.star-rating {
     direction: rtl;  
     display: flex;
     justify-content: center;
@@ -276,17 +276,17 @@ h2:after {
     margin: 15px 0;
 }
 
-.start-rating input {
+.star-rating input {
     display: none;
 }
 
-.start-rating .start {
+.star-rating .star {
     font-size: 2rem;
     color: #add;
     cursor: pointer;
     transition: color 0.2s ease;
 }
 
-.start-rating input:checked ~ .star {
+.star-rating input:checked ~ .star {
     color: #ffc107;
 }
