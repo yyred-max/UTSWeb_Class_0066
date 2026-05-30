@@ -3,7 +3,22 @@ Lentera Aksara: website company profile perpustakaan digital
 
 <!-- referensi -->
 https://www.w3schools.com/bootstrap5/bootstrap_containers.php
-https://getbootstrap.com/docs/5.0/content/typography/
-https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout
+-digunakan sebagai referensi awal, dimodifikasi pada tat letak responsif dan efek hover.
 
-https://wiki.flatironinstitute.org/System/JQueryStars?sortcol=4;table=1;up=1#sorted_table
+https://getbootstrap.com/docs/5.3/
+-Desain dimodifikasi pada bagian warna (dari tema default Bootstrap menjadi tema krem #E6DEC9 dan biru tua #2c3e66), layout (penyesuaian grid dan card), konten (sesuai tema perpustakaan digital), serta fitur interaktif (pencarian, rating bintang, validasi form).
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout
+- Referensi untuk mengatur layout flex pada section Profil dan Dashboard. Dimodifikasi pada pengaturan gap, alignment, dan wrap.
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+- Referensi untuk manipulasi DOM seperti filter data, perubahan style, dan event handling. Dimodifikasi untuk fitur search dan validasi form.
+
+https://www.w3schools.com/howto/howto_css_star_rating.asp
+-  Inspirasi desain rating bintang. Dimodifikasi pada arah (rtl), ukuran font, dan warna aktif (kuning).
+
+https://fonts.google.com/specimen/Inter
+-Font utama website. Dimodifikasi pada ukuran dan ketebalan untuk heading dan teks.
+
+
+
