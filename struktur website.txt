@@ -1,0 +1,20 @@
+lentera-aksara/
+│
+├── index.php              ← Website pengunjung
+├── koneksi.php
+│
+├── admin/
+│   ├── login.php
+│   ├── dashboard.php       ← Dashboard Admin
+│   ├── proses_login.php
+│   ├── logout.php
+│   │
+│   └── buku/
+│       ├── buku.php        ← Daftar buku
+│       ├── tambah_buku.php
+│       ├── edit_buku.php
+│       ├── hapus_buku.php
+│
+├── assets/
+├── uploads/
+└── database.sql

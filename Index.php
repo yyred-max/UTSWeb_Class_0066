@@ -8,8 +8,8 @@
         <!-- bootsrtap 5 CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/script.js"></script>
     </head>
 
     <body id="body">
@@ -17,9 +17,9 @@
             <nav class="navbar navbar-expand-sm bg-light navbar-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="logo.png" alt="Logo" style="width: 100px;">
+                        <img src="assets/images/logo.png" alt="Logo" style="width: 100px;">
                     </a>
-                        <button class="navbar-toggler" type="button" data-bs-tooggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                    
@@ -70,7 +70,7 @@
                 <div class="container-fluid px-0">
                     <h2>Dashboard</h2>
                     <div class="card text-white">
-                        <img class="card-img object-fit-cover" src="Background.png" alt="Backgorund">
+                        <img class="card-img object-fit-cover" src="assets/images/Background.png" alt="Backgorund">
                         <div class="card-img-overlay">
                             <h5 class="display-4 fw-bold">Lentera Aksara</h5>
                             <p class="lead mb-4">Lentera Aksara: website company profile perpustakaan digital</p>
@@ -81,6 +81,7 @@
                             <input class="form-control border-0 rounded-pill px-4" type="search" placeholder="Search" aria-label="Search">
                         <button type="" class="btn btn-primary rounded-pill px-4">🔍
                         </button>
+                        </form>
                     </div>
                     </div>
                 </div>
@@ -95,7 +96,7 @@
                 <div class="col-sm-6">
                     <h2>BUKU FILSAFAT</h2>
                     <div class="card" style="width: 400px;">
-                        <img class="card-img-top" src="madilog.jpeg" alt="Madilog" style="width: 100%;">
+                        <img class="card-img-top" src="assets/images/madilog.jpeg" alt="Madilog" style="width: 100%;">
                         <div class="card-body">
                             <h4 class="card-title">Madilog</h4>
                             <p class="card-text">Madilog (singkatan dari Materialisme, Dialektika, dan Logika) adalah magnum opus karya Tan Malaka. Diterbitkan pada tahun 1951, buku ini merupakan panduan berpikir rasional dan ilmiah yang bertujuan untuk membebaskan bangsa Indonesia dari 
@@ -108,7 +109,7 @@
                     <div class="col-sm-6">
                         <h2>NOVEL</h2>
                         <div class="card" style="width: 400px;">
-                            <img class="card-img-top" src="dear nathan.jpg" alt="dearNathan" style="width: 100%;">
+                            <img class="card-img-top" src="assets/images/dearNathan.jpg" alt="dearNathan" style="width: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">Dear Nathan</h4>
                                 <p class="card-text">Dear Nathan adalah novel remaja populer karya Erisca Febriani yang kemudian diadaptasi menjadi film laris Indonesia. Ceritanya berfokus pada dinamika 
@@ -131,7 +132,7 @@
                 <div class="col-sm-6">
                     <h2>BUKU FILSAFAT</h2>
                     <div class="card" style="width: 400px;">
-                        <img class="card-img-top" src="madilog.jpeg" alt="Madilog" style="width: 100%;">
+                        <img class="card-img-top" src="assets/images/madilog.jpeg" alt="Madilog" style="width: 100%;">
                         <div class="card-body">
                             <h4 class="card-title">Madilog</h4>
                             <p class="card-text">Penulis : Tan Malaka</p>
@@ -146,7 +147,7 @@
                     <div class="col-sm-6">
                         <h2>NOVEL</h2>
                         <div class="card" style="width: 400px;">
-                            <img class="card-img-top" src="dear nathan.jpg" alt="dearNathan" style="width: 100%;">
+                            <img class="card-img-top" src="assets/images/dearNathan.jpg" alt="dear Nathan" style="width: 100%;">
                             <div class="card-body">
                                 <h4 class="card-title">Dear Nathan</h4>
                                 <p class="card-text">Penulis : Erisca Febriani</p>
@@ -156,7 +157,8 @@
                             </div>
                         </div>
                     </div>
-
+                </div>
+            </div>
             </Section>
 
 
@@ -167,7 +169,7 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="card-body">
-                                <img class="rounded float-star" src="filsafat.jpg" alt="filsafat" style="width: 100%;">
+                                <img class="rounded float-start" src="assets/images/filsafat.jpg" alt="filsafat" style="width: 100%;">
                                 <p class="card-text">FILSAFAT</p>
                             </div>
                         </div>
@@ -176,7 +178,7 @@
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body"></div>
-                            <img class="rounded float-end" src="novel.png" alt="novel" style="width: 100%;">
+                            <img class="rounded float-end" src="assets/images/novel.png" alt="novel" style="width: 100%;">
                             <p class="card-text">NOVEL</p>
                         </div>
                     </div>
@@ -192,21 +194,21 @@
 
                     <div class="box">
                         <h3>Laskar Pelangi</h3>
-                        <img src="Laskar Pelangi.jpg" alt="Laskar Pelangi">
+                        <img src="assets/images/Laskar Pelangi.jpg" alt="Laskar Pelangi">
                         <div class="star-rating">
                             <input type="radio" id="laskar-star5" name="rating-laskar" value="5">
                             <label for="laskar-star5" class="star">⭐</label>
 
-                            <input type="radio" id="laskar-star4" name="rating-laskar" value="5">
+                            <input type="radio" id="laskar-star4" name="rating-laskar" value="4">
                             <label for="laskar-star4" class="star">⭐</label>
 
-                            <input type="radio" id="laskar-star3" name="rating-laskar" value="5">
+                            <input type="radio" id="laskar-star3" name="rating-laskar" value="3">
                             <label for="laskar-star3" class="star">⭐</label>
 
-                            <input type="radio" id="laskar-star2" name="rating-laskar" value="5">
+                            <input type="radio" id="laskar-star2" name="rating-laskar" value="2">
                             <label for="laskar-star2" class="star">⭐</label>
 
-                            <input type="radio" id="laskar-star1" name="rating-laskar" value="5">
+                            <input type="radio" id="laskar-star1" name="rating-laskar" value="1">
                             <label for="laskar-star1" class="star">⭐</label>
 
                             <span class="rating-value" id="laskar-rating-value"></span>
@@ -222,12 +224,13 @@
              <Section id="Profil">
                 <div class="hero-kiri">
                     <h2>Profil</h2>
-                    <p>Saya Adalah Mahasiswa Informatika di Universitas Internasional Semen Indonesia. Sekarang saya semester 4 dan sedang mengerjakan UTS Pemrograman(maaf pak saya pusing😭🙏)</p>
+                    <p>Saya Adalah Mahasiswa Informatika di Universitas Internasional Semen Indonesia. Sekarang saya semester 4 dan sedang mengerjakan UTS Pemrograman</p>
                 </div>
 
                 <div class="hero-kanan">
-                    <img src="profil.jpeg" width="512px" height="256px">
+                    <img src="assets/images/profil.jpeg" width="512" height="256">
                 </div>
+                </Section>
 
 
              <!-- Section 7 -->
@@ -267,6 +270,7 @@
 
             </Section>
         </main>        
+
 
     </body>
 </html>
