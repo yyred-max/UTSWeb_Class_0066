@@ -21,5 +21,7 @@ if ($_SERVER['REQUIRED_METHOD'] === 'POST') {
     }
     header("Location: login.php?error=1");
     exit;
+} else {
+    header ("Location: login.php");
 }
 ?>
