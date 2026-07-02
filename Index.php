@@ -1,3 +1,8 @@
+<?php
+require_once 'admin/config.php';
+$buku_terbaru = $conn->query("SELECT * FROM buku ORDER BY id DESC LIMIT 4");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -122,6 +127,42 @@
                 </div>
             </section>
 
+            <!-- Section terbaru -->
+            <section id="KoleksiTerbaru" class="py-4">
+    <div class="container">
+        <h2>Koleksi Terbaru</h2>
+        <div class="row">
+            <?php if ($buku_terbaru->num_rows > 0): ?>
+                <?php while ($row = $buku_terbaru->fetch_assoc()): ?>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="card h-100">
+                            <?php 
+                            // Cek apakah file gambar ada
+                            $gambarPath = "uploads/" . $row['gambar'];
+                            if (!empty($row['gambar']) && file_exists($gambarPath)) {
+                                $imgSrc = $gambarPath;
+                            } else {
+                                $imgSrc = "assets/images/logo.png"; // gunakan logo yang pasti ada
+                            }
+                            ?>
+                            <img src="<?= $imgSrc ?>" class="card-img-top" alt="<?= htmlspecialchars($row['judul']) ?>" style="height: 200px; object-fit: cover;">
+                            <div class="card-body">
+                                <h5 class="card-title"><?= htmlspecialchars($row['judul']) ?></h5>
+                                <p class="card-text"><?= htmlspecialchars(substr($row['deskripsi'], 0, 100)) ?>...</p>
+                                <p class="card-text"><small class="text-muted">Kategori: <?= ucfirst($row['kategori']) ?></small></p>
+                                <a href="#" class="btn btn-primary btn-sm">Detail</a>
+                            </div>
+                        </div>
+                    </div>
+                <?php endwhile; ?>
+            <?php else: ?>
+                <div class="col-12">
+                    <p class="text-muted">Belum ada buku di database.</p>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</section>
 
             <!-- Section 3 -->
             <Section id="Katalog">
